@@ -4,7 +4,7 @@ const { Client, Guild, resolveColor } = require("discord.js"),
     client = new Client({
         intents: 3276799
     }),
-    { token, prefix } = require("./config");
+    { token, prefix } = require("./config.json");
 
 
 client.login(token);
